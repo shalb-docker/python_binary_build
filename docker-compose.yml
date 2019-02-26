@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  python_binary_build:
+    image: shalb/python_binary_build:0.0.1
+    volumes:
+      - ./code:/code
+
