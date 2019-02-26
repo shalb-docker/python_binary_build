@@ -4,11 +4,11 @@ Container for python binary building from script
 
 ## build
 
-~~
+~~~~
 docker login
 docker-compose -f docker-compose-build.yml build
 docker-compose -f docker-compose-build.yml push
-~~
+~~~~
 
 # Example binary build from python script
 
